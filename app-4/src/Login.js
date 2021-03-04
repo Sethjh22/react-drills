@@ -11,11 +11,11 @@ constructor(){
     this.showPassword = this.showPassword.bind(this)
 }
 
-handleUsername(val){
-    this.setState({username: val})
+handleUsername(name){
+    this.setState({username: name})
 }
-handlePassword(val){
-    this.setState({password: val})
+handlePassword(pass){
+    this.setState({password: pass})
 }
 showPassword(){
     alert `Username: ${this.state.username} Password: ${this.state.password}`
